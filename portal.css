@@ -1,5 +1,12 @@
-body{
-background-color: beige;
+
+#content{
+    max-width: 160px;
+    background-color: beige;
+    margin: 0 auto;
+}
+a{
+    background-color: lightblue;
+    color: rgb
 }
 
 nav{
@@ -10,11 +17,41 @@ nav{
     margin: 5xp;
     text-align: center;
 }
+a.hover {
+    background-color: darkgrey;
+    color: white;
+}
    
-nav{
+nav {
         display: flex;
+        justify-content:center;
     }
-
+h1{
+    font-size: 2em;
+    text-align: center;
+}
+img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+p {
+    width: 40%;
+    text-align: center;
+    margin: 0 auto
+    
+}
 .background{
     background-color: #ccc;
+}
+footer{
+    background-color:aqua;
+    color: black;
+    text-decoration:none;
+    padding: 10px;
+    margin: 5xp;
+    text-align: center;
+}
+footer p{
+    text-align: center;
 }
