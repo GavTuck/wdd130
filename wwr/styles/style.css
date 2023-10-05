@@ -1,7 +1,9 @@
 #content{
     margin: 0 auto;
 }
-
+.icon{
+    width: 80px;
+}
 div {
     max-width: 1600px;
 }
