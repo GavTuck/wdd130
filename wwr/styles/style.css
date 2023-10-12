@@ -1,19 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lora:ital@1&display=swap');
 #content{
+
     margin: 0 auto;
-}
-.icon{
-    width: 80px;
-}
-div {
     max-width: 1600px;
+}
+.logo{
+    width: 80px;
 }
 #logo_link{
     width: 25%;
+    padding-top: 5px;
 }
 nav a{
     text-align: center;
-    color: black;
-    text-decoration: none
+    color: white;
+    text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1{
@@ -37,7 +39,11 @@ main section{
     background-color: grey;
 }
 body {
-    background-color: #fcfbfb; 
+    background-color: #fcfbfb;
+    font-family: Lato, Lola, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:rgba(20,30,13, .7);
@@ -49,13 +55,23 @@ nav a:hover {
 .book{
     background-color: grey;
     color:white;
-    text-decoration: none
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join{
 background-color:tan;
 color: black;
-text-decoration: none
+text-decoration: none;
+font-size: 18px;
+padding: 15px 30px;
+margin-top: 50px;
+border-radius: 5px;
 }
+
+
 .book:hover{
 background-color: tan;
 color: black;
@@ -66,26 +82,36 @@ color: black;
 }
 .msg{
 background-color: tan;
+line-height: 1.5em;
+padding: 35px;
 }
 footer{
 background-color: grey;
 color: beige;
-text-decoration: none
+text-decoration: none;
+margin-top: 200px;
+padding: 25px 50px;
 }
 .home-title{
     color: black;
+    font-family: Lola, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: black;
 }
 .msg h2{
     color: black;
+    font-family: Lola, sans-serif;
 }
 .msg p{
     color: black;
+    padding-bottom: 15px;
 }
 footer a{
-    color: beige
+    color: beige;
+    padding: 25px 50px;
 }
 footer a:hover{
     color: beige;
@@ -95,4 +121,30 @@ footer p {
 }
 footer p a:hover{
     text-decoration: underline;
+}
+h2 {
+    margin: 0;
+}
+.icon{
+    padding-top: 10px;
+    width: 80px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card{
+    margin: 200px 0;
+}
+.camping-card{
+    margin: 200px 0;
+}
+.rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid;
+    color: black;
+}
+main section img{
+    box-sizing: border-box;
 }
