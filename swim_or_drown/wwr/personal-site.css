@@ -61,3 +61,11 @@ footer{
     width: 100%;
     height: 100%;
 }
+.card-img {
+    width: 100%;
+    height: 75%;
+}
+.test-img{
+    width: 50%;
+    height: 50%;
+}
