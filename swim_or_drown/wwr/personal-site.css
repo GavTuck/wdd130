@@ -50,6 +50,7 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto, auto;
+    margin: 100px 75px;
 
 }
 .mision-card{
@@ -67,9 +68,10 @@ footer{
     margin-right: 50px;
 }
 #pool1 {
-    width: 100%;
-    height: 500px;
-    
+    width: 85%;
+    justify-items: center;
+    margin-left: 75px;
+
 }
 .card-img {
     width: 75%;
