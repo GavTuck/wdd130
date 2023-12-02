@@ -46,11 +46,12 @@ nav a{
 }
 body {
     background-color: #fcfbfb;
-    font-family: Lato, Lola, sans-serif;
+    font-family: Lato, Lora, sans-serif; 
     font-size: 22px;
     margin: 0;
     padding: 0;
 }
+
 #content{
 
     margin: 0 auto;
@@ -73,12 +74,12 @@ footer{
     }
 
 .mission {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto, auto;
-    margin: 100px 75px;
-
-}
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto; /* Corrected syntax */
+        margin: 100px 75px;
+ }
+    
 .mision-card{
     grid-column: 1/2;
     grid-row: 2/3;
