@@ -71,6 +71,7 @@ footer{
         display: grid;
         grid-template-columns: 150px auto;
     }
+
 .mission {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -108,4 +109,74 @@ footer{
 .test-img{
     width: 50%;
     height: 50%;
+}
+/* .top-grid{
+  display:grid;
+  grid-template-columns: 700px 700px;
+  grid-template-rows: 300px 300px 300px;
+} */
+.top-grid{
+    display: flex;
+    justify-content: space-evenly;
+}
+.miguel-card{
+    width: 500px;
+}
+.miguel-img{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+.amelia-card{
+    width: 500px;
+    height: 300px;
+    justify-items: center;
+}
+.amelia-img{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.bottom-grid{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.goldfish-img{
+    grid-column: 1/2;
+    width: 75%;
+    height: 50%;
+   
+}
+
+.pufferfish-img{
+    grid-column: 2/3;
+    width: 75%;
+    height: 50%;
+
+}
+
+.dolphine-img{
+    grid-column: 3/4;
+   width: 75%;
+   height: 50%;
+}
+
+.lessons-card{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    width: 300px;
+}
+
+.lessons-card img{
+    width: 300px;
+    height: 200px;
+}
+
+.lessons-card p, .lessons-card h2{
+    margin: 0;
+    padding: 0;
 }
