@@ -181,3 +181,32 @@ footer{
     margin: 0;
     padding: 0;
 }
+
+footer a{
+    color: beige;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+footer a:hover{
+    color: beige;}
+.upper-grid{
+    display: flex;
+    justify-content: space-between;
+}
+.floating{
+    width: 20%;
+    height: 20%;
+}
+.diving{
+    width: 25%;
+    height: 25%;
+    
+}
+.underwater{
+    width: 25%;
+    height: 10%;
+}
+.strokes-card{
+    width: 20%;
+    height: 25%;
+}
