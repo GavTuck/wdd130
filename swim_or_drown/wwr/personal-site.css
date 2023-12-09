@@ -43,6 +43,11 @@ nav a{
     padding: 35px;
     display: flex;
     justify-content: space-around
+
+}
+nav a:hover{
+    color: orange;
+    text-decoration: underline;
 }
 body {
     background-color: #fcfbfb;
@@ -94,11 +99,8 @@ footer{
     grid-row: 2/3;
     margin-right: 50px;
 }
-#pool1 {
-    width: 85%;
-    justify-items: center;
-    margin-left: 75px;
-
+#pool1, .card-pool1 {
+    width: 100%;
 }
 .card-img {
     width: 75%;
@@ -122,16 +124,28 @@ footer{
 }
 .miguel-card{
     width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
 }
 .miguel-img{
     width: 500px;
     height: 300px;
     object-fit: cover;
 }
+.center{
+    text-align: center;
+}
+
 .amelia-card{
     width: 500px;
     height: 300px;
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+
 }
 .amelia-img{
     width: 500px;
@@ -142,6 +156,7 @@ footer{
 .bottom-grid{
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 100px;
 }
 
 .goldfish-img{
@@ -181,32 +196,56 @@ footer{
     margin: 0;
     padding: 0;
 }
+footer{
+margin-top: 50px;
 
+}
 footer a{
     color: beige;
     padding: 5px 5px;
     text-decoration: none;
+
 }
 footer a:hover{
     color: beige;}
 .upper-grid{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    padding: 0px 75px;
+    gap: 10px;
+    margin-bottom: 150px;
 }
-.floating{
-    width: 20%;
-    height: 20%;
+.upper-grid p{
+    width: 25vw;
 }
-.diving{
-    width: 25%;
-    height: 25%;
+
+.floating, .diving, .underwater, .strokes {
+    width: 300px;
+    height: 200px;
     
 }
-.underwater{
-    width: 25%;
-    height: 10%;
+.floating-card, .diveboard-card, .underwater-card, .strokes-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.diveboard-card{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.underwater-card{
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 .strokes-card{
-    width: 20%;
-    height: 25%;
+
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.floating-card{
+    grid-column: 2/3;
+    grid-row: 2/3;
 }
